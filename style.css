@@ -1,0 +1,238 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+.card {
+  width: 500px;
+  height: 700px;
+  border: 15px solid #F5D50D;
+  border-radius: 15px;
+  background-image: url(purpleBackground.jpeg);
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  box-shadow: 1px 1px 4px 4px black;
+}
+
+header {
+  width: 99%;
+  height: 35px;
+  position: absolute;
+}
+
+.commonality {
+  width: 55px;
+  height: 20px;
+  position: relative;
+  left: -10px;
+  top: 17px;
+  background-color: lightgray;
+  border-radius: 15px;
+  text-align: center;
+  text-shadow: 2px 2px 5px grey;
+  font-size: medium;
+  font-style: oblique;
+  font-family: fantasy;
+  -webkit-text-fill-color: black;
+  font-weight: lighter;
+  box-shadow: 2px 2px 4px black;
+}
+
+.name {
+  position: relative;
+  left: 55px;
+  top: -12px;
+  font-size: xx-large;
+  font-family: fantasy;
+  font-weight: lighter;
+}
+
+.hp {
+  position: relative;
+  left: 380px;
+  top: -32px;
+  font-size: small;
+  font-family: fantasy;
+}
+
+.hpNum {
+  position: relative;
+  left: 400px;
+  top: -65px;
+  font-size: xx-large;
+  font-family: fantasy;
+  font-weight: lighter;
+}
+
+.icon {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background-image: url(eyeball-icon-png-eye-icon-1.png);
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px;
+  background-color: rebeccapurple;
+  box-shadow: 0px 0px 2px 2px black;
+  right: 7px;
+  top: 14px;
+}
+
+.content {
+  width: 99%;
+  height: 550px;
+  position: relative;
+  top: 35px;
+  justify-content: center;
+  display: flex;
+}
+
+.image {
+  width: 400px;
+  height: 245px;
+  top: 25px;
+  position: absolute;
+  background-image: url(mewtwo.png);
+  background-size: contain;
+  background-position: center;
+  border: 3px solid white;
+  box-shadow: 3px 3px 3px black;
+}
+
+.ability {
+  width: 100%;
+  height: 250px;
+  top: 300px;
+  position: relative;
+}
+
+.abBox {
+  width: 90px;
+  height: 25px;
+  position: relative;
+  left: 20px;
+  top: 10px;
+  background-image: url(redBackground.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 5px;
+  text-align: center;
+  text-shadow: 2px 2px 5px black;
+  font-size: large;
+  font-style: oblique;
+  font-family: fantasy;
+  -webkit-text-fill-color: white;
+  border: 3px solid lightgrey;
+  box-shadow: 2px 2px 2px black;
+}
+
+p {
+  width: 90%;
+  font-family: sans-serif;
+  font-weight: bold;
+  top: 10px;
+  position: relative;
+  left: 22px;
+}
+
+h2 {
+  color: darkred;
+  position: absolute;
+  font-family: fantasy;
+  left: 130px;
+  top: -7px;
+  font-weight: lighter;
+}
+
+
+.psychic {
+  color: black;
+  position: absolute;
+  font-family: fantasy;
+  left: 60px;
+  top: 480px;
+}
+
+p2 {
+  width: 80%;
+  font-size: 12px;
+  font-family: "Lucida Console", "Courier New", monospace;
+  top: 510px;
+  position: absolute;
+  left: 60px;
+}
+
+
+.barrier {
+  color: black;
+  position: absolute;
+  font-family: fantasy;
+  left: 60px;
+  top: 570px;
+}
+
+p3 {
+  width: 80%;
+  font-size: 12px;
+  font-family: "Lucida Console", "Courier New", monospace;
+  top: 600px;
+  position: absolute;
+  left: 60px;
+}
+
+.iconEye {
+  position: absolute;
+  width: 13px;
+  height: 13px;
+  background-image: url(eyeball-icon-png-eye-icon-1.png);
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px;
+  background-color: rebeccapurple;
+  box-shadow: 0px 0px 2px 2px black;
+  top: 510px;
+  left: 35px;
+}
+
+.iconEye2 {
+  position: absolute;
+  width: 13px;
+  height: 13px;
+  background-image: url(eyeball-icon-png-eye-icon-1.png);
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px;
+  background-color: rebeccapurple;
+  box-shadow: 0px 0px 2px 2px black;
+  top: 100px;
+
+}
+
+.iconEye3 {
+  position: absolute;
+  width: 13px;
+  height: 13px;
+  background-image: url(eyeball-icon-png-eye-icon-1.png);
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px;
+  background-color: rebeccapurple;
+  box-shadow: 0px 0px 2px 2px black;
+  top: 0px;
+  right: 25px;
+}
+
+h3 {
+  position: absolute;
+  width: 13px;
+  height: 13px;
+  background-image: url(six-pointed-star-in-black-tom-hill.png);
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px;
+  background-color: silver;
+  box-shadow: 0px 0px 2px 2px black;
+  top: -119px;
+  right: 0px;
+}
